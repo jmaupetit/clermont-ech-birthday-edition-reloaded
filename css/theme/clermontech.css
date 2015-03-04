@@ -268,3 +268,15 @@ body {
   border-radius: 5px; }
   .slides section.present {
     top: 0; }
+  .slides section.sponsors > section.recurrent {
+    background-color: rgba(255, 255, 255, 0.6) !important; }
+  .slides section.sponsors > section.event h1 {
+    font-size: 5em; }
+  .slides section.wisembly {
+    background-color: rgba(34, 34, 34, 0.7) !important; }
+    .slides section.wisembly ul {
+      list-style-type: none;
+      padding: 0 2em; }
+      .slides section.wisembly ul li {
+        padding-bottom: 1em;
+        text-align: center; }

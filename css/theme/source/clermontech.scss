@@ -64,6 +64,37 @@ section.has-light-background {
         }
 
         &.title {}
+
+        &.people {}
+
         &.manifesto {}
+
+        &.friends {}
+
+        &.sponsors {
+            & > section.recurrent {
+                background-color: rgba(#fff, 0.6) !important;
+            }
+
+            & > section.event {
+                h1 {
+                    font-size: 5em;
+                }
+            }
+        }
+
+        &.wisembly {
+            background-color: rgba($backgroundColor, 0.7) !important;
+
+            ul {
+                list-style-type: none;
+                padding: 0 2em;
+
+                li {
+                    padding-bottom: 1em;
+                    text-align: center;
+                }
+            }
+        }
     }
 }
