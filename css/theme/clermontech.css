@@ -268,10 +268,18 @@ body {
   border-radius: 5px; }
   .slides section.present {
     top: 0; }
+  .slides section.people section:nth-child(3), .slides section.people section:nth-child(5) {
+    margin-top: 12em; }
   .slides section.sponsors > section.recurrent {
     background-color: rgba(255, 255, 255, 0.6) !important; }
   .slides section.sponsors > section.event h1 {
     font-size: 5em; }
+  .slides section.humans section:nth-child(2) {
+    margin-top: 6em; }
+  .slides section.conclusion {
+    background-color: rgba(255, 255, 255, 0) !important; }
+    .slides section.conclusion h3 {
+      font-size: 3em; }
   .slides section.wisembly {
     background-color: rgba(34, 34, 34, 0.7) !important; }
     .slides section.wisembly ul {

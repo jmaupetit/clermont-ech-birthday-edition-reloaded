@@ -65,7 +65,12 @@ section.has-light-background {
 
         &.title {}
 
-        &.people {}
+        &.people {
+            section:nth-child(3),
+            section:nth-child(5) {
+                margin-top: 12em;
+            }
+        }
 
         &.manifesto {}
 
@@ -80,6 +85,20 @@ section.has-light-background {
                 h1 {
                     font-size: 5em;
                 }
+            }
+        }
+
+        &.humans {
+            section:nth-child(2) {
+                margin-top: 6em;
+            }
+        }
+
+        &.conclusion {
+            background-color: rgba(#fff, 0) !important;
+
+            h3 {
+                font-size: 3em;
             }
         }
 
