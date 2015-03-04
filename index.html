@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Clermont'ech APIHour #13 • Birthday Edition Reloaded</title>
+
+		<meta name="description" content="This is our birthday!">
+		<meta name="author" content="Julien Maupetit">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/clermontech.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section data-background="img/apihour-07/13100961735_74656ef131_o.jpg" class="title">
+					<h1>Clermont'ech</h1>
+					<h3>APIHour #13</h3>
+					<h5>Birthday Edition #2</h5>
+					<p>
+						<small><a href="http://clermontech.org">clermontech.org</a> :: <a href="http://twitter.com/clermontech">@clermontech</a></small>
+					</p>
+				</section>
+
+				<section class="people">
+					<section data-background="img/atelier-git/15831154362_ce993b0d34_k.jpg">
+						<h1>Association</h1>
+						<h3>loi 1901</h3>
+					</section>
+					<section data-background="img/apihour-09/14412837368_4c430026ef_o.jpg">
+						<h3>Julien Muetton</h3>
+						<h5>Vice-président</h5>
+					</section>
+					<section data-background="img/apihour-11/15807350349_008d7433c2_o.jpg">
+						<h3>Manuel Raynaud</h3>
+						<h5>Secrétaire</h5>
+					</section>
+					<section data-background="img/apihour-08/14027188010_c18f60a596_o.jpg">
+						<h3>Pierre Tachoire</h3>
+						<h5>Trésorier</h5>
+					</section>
+					<section data-background="img/apihour-08/14027159259_23908652f7_o.jpg">
+						<h3>William Durand</h3>
+						<h5 class="strike">Trésorier suppléant</h5>
+						<h6>Community Manager</h6>
+					</section>
+				</section>
+
+				<section class="manifesto">
+					<section data-background="img/apihour-07/13421597183_001c98eeb5_o.jpg">
+						<h1>Manifesto</h1>
+					</section>
+
+					<section data-background="img/apihour-01/8956871427_fb51a06f40_k.jpg">
+						<h2>Partage</h2>
+					</section>
+
+					<section data-background="img/apihour-02/8853085017_ee7ec9f299_o.jpg">
+						<h2>Ouverture</h2>
+
+						<p>
+							<small>Clermont'ech est technologie-agnostique.</small>
+						</p>
+					</section>
+
+					<section data-background="img/apihour-12/16508394910_707473208d_o.jpg">
+						<h2>Indépendance</h2>
+
+						<p>
+							<small>Clermont’ech ne se verra jamais dicter sa ligne éditoriale <br>
+							par des tiers extérieurs à l’association.</small>
+						</p>
+					</section>
+
+					<section data-background="img/apihour-02/9094161734_8e91b6aec3_k.jpg">
+						<h2>Respect</h2>
+					</section>
+				</section>
+
+				<section class="apihour">
+					<section data-background="img/apihour-03/9306793516_87ffba3367_o.jpg">
+						<h1>APIHour</h1>
+					</section>
+
+					<section data-background="img/apihour-03/9304006967_b93e757585_o.jpg">
+						<h4>... is the new Happy hour!</h4>
+					</section>
+
+					<section data-background="img/apihour-04/10176018515_6d5bee532f_o.jpg">
+						<h3>Proposez nous un talk !</h3>
+
+						<a href="mailto:iwanttospeak@clermontech.org">iwanttospeak@clermontech.org</a>
+					</section>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: false,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
